@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=450%C3%97250&w=650&h=350" alt="">
+                    <img src="{{asset('assets/images/rulou-aplicat.jpg')}}" alt="">
                 </div>
                 <div class="col-md-5">
 

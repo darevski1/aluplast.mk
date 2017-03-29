@@ -1083,6 +1083,10 @@
 .toi {
 	padding: 20px;
 }
+.newsc {
+	background: #fff;
+
+}
 .newju {
 	background: rgba(241,231,103,1);
 	background: -moz-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);

@@ -35,12 +35,12 @@
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label name="email">Емаил:</label>
-                            <input id="email" name="email" class="form-control" placeholder="Ваша контакт маил адреса">
+                            <input id="email" name="email" class="form-control input-lg" placeholder="Ваша контакт маил адреса">
                         </div>
 
                         <div class="form-group">
                             <label name="subject">Наслов:</label>
-                            <input id="subject" name="subject" class="form-control" placeholder="Наслов на порака">
+                            <input id="subject" name="subject" class="form-control input-lg" placeholder="Наслов на порака">
                         </div>
 
                         <div class="form-group">

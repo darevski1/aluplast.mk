@@ -23,7 +23,7 @@
 <section id="slider">
     <div id="home-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="item active" style="background-image: url(images/slider/01.jpg)">
+            <div class="item active" style="background-image: url('assets/images/banner01.png')">
                 <div class="carousel-caption container">
                     <div class="row">
                         <div class="col-sm-7">
@@ -34,7 +34,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item" style="background-image: url(images/slider/02.jpg)">
+            <div class="item" style="background-image: url(assets/images/banner02.png)">
                 <div class="carousel-caption container">
                     <div class="row">
                         <div class="col-sm-7">
@@ -45,18 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item" style="background-image: url(images/slider/03.jpg)">
-                <div class="carousel-caption container">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <h1>You are entire </h1>
-                            <h2>creative world</h2>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item" style="background-image: url(images/slider/04.jpg)">
+            <div class="item" style="background-image: url(assets/images/banner03.png)">
                 <div class="carousel-caption container">
                     <div class="row">
                         <div class="col-sm-7">
@@ -91,165 +80,66 @@
 </section>
 <!-- /SERVICES -->
 
-
-<!-- OUR WORKS -->
-<section id="our-works">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h1>Out Works</h1>
-                    <span class="st-border"></span>
-                </div>
-            </div>
-
-            <div class="portfolio-wrapper" >
-                <div class="col-md-12">
-                    <ul class="filter">
-                        <li><a class="active" href="#" data-filter="*">All</a></li>
-                        <li><a href="#" data-filter=".wordpress">WordPress</a></li>
-                        <li><a href="#" data-filter=".html">HTML</a></li>
-                        <li><a href="#" data-filter=".graphic">graphic</a></li>
-                        <li><a href="#" data-filter=".php">PHP</a></li>
-                        <li><a href="#" data-filter=".bootstrap">bootstrap</a></li>
-                    </ul><!--/#portfolio-filter-->
-                </div>
-
-                <div class="portfolio-items">
-
-                    <div class="col-md-4 col-sm-6 work-grid wordpress graphic">
-                        <div class="portfolio-content">
-                            <img class="img-responsive" src="images/works/portfolio-1.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a href="images/works/portfolio-1.jpg"><i class="fa fa-camera-retro"></i></a>
-                                <h5>Web Development</h5>
-                                <p>Design, Develop</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 work-grid html php bootstrap">
-                        <div class="portfolio-content">
-                            <img class="img-responsive" src="images/works/portfolio-2.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a href="images/works/portfolio-2.jpg"><i class="fa fa-camera-retro"></i></a>
-                                <h5>Web Development</h5>
-                                <p>Design, Develop</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 work-grid wordpress graphic">
-                        <div class="portfolio-content">
-                            <img class="img-responsive" src="images/works/portfolio-3.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a href="images/works/portfolio-3.jpg"><i class="fa fa-camera-retro"></i></a>
-                                <h5>Web Development</h5>
-                                <p>Design, Develop</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 work-grid html php bootstrap">
-                        <div class="portfolio-content">
-                            <img class="img-responsive" src="images/works/portfolio-4.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a href="images/works/portfolio-4.jpg"><i class="fa fa-camera-retro"></i></a>
-                                <h5>Web Development</h5>
-                                <p>Design, Develop</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 work-grid wordpress graphic php">
-                        <div class="portfolio-content">
-                            <img class="img-responsive" src="images/works/portfolio-5.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a href="images/works/portfolio-5.jpg"><i class="fa fa-camera-retro"></i></a>
-                                <h5>Web Development</h5>
-                                <p>Design, Develop</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 work-grid html bootstrap graphic">
-                        <div class="portfolio-content">
-                            <img class="img-responsive" src="images/works/portfolio-6.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <a href="images/works/portfolio-6.jpg"><i class="fa fa-camera-retro"></i></a>
-                                <h5>Web Development</h5>
-                                <p>Design, Develop</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<!-- /OUR WORKS -->
-
-
 <!-- PRICING -->
 <section id="pricing">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title">
-                    <h1>Pricing</h1>
+                    <h1>Производи</h1>
                     <span class="st-border"></span>
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="st-pricing text-center">
-                    <h5>Basic</h5>
-                    <h3>$39</h3>
-                    <div class="st-border"></div>
-                    <ul>
-                        <li>Free Download</li>
-                        <li>1000+ Softwear</li>
-                        <li>Full Access</li>
-                        <li>Free Update</li>
-                        <li>Live Support</li>
-                    </ul>
-                    <a href="" class="btn btn-send">Sign Up</a>
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <div class="caption">
+                        <h3>ПВЦ СТОЛАРИЈА</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <div class="caption">
+                        <h3>Алуминиум</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <div class="caption">
+                        <h3>РОЛЕТНИ</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <div class="caption">
+                        <h3>КОМАРНИЦИ</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>
+                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-sm-4">
-                <div class="st-pricing text-center">
-                    <h5>Silver</h5>
-                    <h3>$89</h3>
-                    <div class="st-border"></div>
-                    <ul>
-                        <li>Free Download</li>
-                        <li>1000+ Softwear</li>
-                        <li>Full Access</li>
-                        <li>Free Update</li>
-                        <li>Live Support</li>
-                    </ul>
-                    <a href="" class="btn btn-send">Sign Up</a>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
-                <div class="st-pricing text-center">
-                    <h5>Gold</h5>
-                    <h3>$209</h3>
-                    <div class="st-border"></div>
-                    <ul>
-                        <li>Free Download</li>
-                        <li>1000+ Softwear</li>
-                        <li>Full Access</li>
-                        <li>Free Update</li>
-                        <li>Live Support</li>
-                    </ul>
-                    <a href="" class="btn btn-send">Sign Up</a>
-                </div>
-            </div>
 
         </div>
     </div>
