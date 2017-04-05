@@ -247,7 +247,7 @@
 		height: 100%;
 		top: 0;
 		left: 0;
-		opacity: 0.5;
+		opacity: 0.2;
 		position: absolute;
 		width: 100%;
 	}
@@ -262,7 +262,9 @@
 		text-shadow: none;
 		margin-top: -130px;	
 	}
-
+    .title-caption{
+        color: #ffffff;
+    }
 	.carousel-caption h1 {
 		font-size:46px;
 		margin-bottom:0;
@@ -1108,10 +1110,11 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );
 }
 .jumbotron .h1, .jumbotron h1.txthd {
-	color: #755252;
+	color: #b60000;
 }
 
 .minblokc {
+	min-height: 600px;
 	height: 100%;
 }
 .jumbotron .h1, .jumbotron h1.txthd1 {

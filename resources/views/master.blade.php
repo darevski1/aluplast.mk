@@ -23,13 +23,15 @@
 <section id="slider">
     <div id="home-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="item active" style="background-image: url('assets/images/banner01.png')">
+            <div class="item active" style="background-image: url('assets/images/banner03.png')">
                 <div class="carousel-caption container">
                     <div class="row">
                         <div class="col-sm-7">
-                            <h1>You are entire </h1>
-                            <h2>creative world</h2>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                            <a href="{{url('pvc')}}">
+                            <h1>Trocal ПВЦ ПРОФИЛ</h1>
+                            <h2>Заменете ги старите и оштетени прозорци и заштедете</h2>
+                            <p>Двојно поголема звучна и топлинска изолација </p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -38,9 +40,11 @@
                 <div class="carousel-caption container">
                     <div class="row">
                         <div class="col-sm-7">
-                            <h1>You are entire </h1>
-                            <h2>creative world</h2>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                            <a class="title-caption" href="{{url('komarnici')}}">
+                                 <h1>Заштитете се </h1>
+                                 <h2>Комарници</h2>
+                                 <p>Заштите го својот дома и работно место од разни инсекти со комарниците на алупласт.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -49,9 +53,8 @@
                 <div class="carousel-caption container">
                     <div class="row">
                         <div class="col-sm-7">
-                            <h1>You are entire </h1>
-                            <h2>creative world</h2>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor. Aenean sollicitudin, lorem quis bibendum auctor.</p>
+                            <h1>Trocal ПВЦ ПРОФИЛ </h1>
+                            <h2>Двојно поголема звучна и топлинска изолација</h2>
                         </div>
                     </div>
                 </div>
@@ -79,7 +82,6 @@
     </div>
 </section>
 <!-- /SERVICES -->
-
 <!-- PRICING -->
 <section id="pricing">
     <div class="container">
@@ -95,11 +97,18 @@
                 <div class="thumbnail">
                     <img src="{{asset('assets/images/placeholder.png')}}" alt="">
                     <div class="caption">
-                        <h3>ПВЦ СТОЛАРИЈА</h3>
+                        <h3>                        <a href="{{url('pvc')}}">ПВЦ СТОЛАРИЈА</a>
+                        </h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <div class="caption">
+                        <h3><a href="{{url('al')}}">Алуминиум</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
             </div>
@@ -107,11 +116,8 @@
                 <div class="thumbnail">
                     <img src="{{asset('assets/images/placeholder.png')}}" alt="">
                     <div class="caption">
-                        <h3>Алуминиум</h3>
+                        <h3><a href="{{url('roletni')}}">РОЛЕТНИ</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -119,23 +125,8 @@
                 <div class="thumbnail">
                     <img src="{{asset('assets/images/placeholder.png')}}" alt="">
                     <div class="caption">
-                        <h3>РОЛЕТНИ</h3>
+                        <a href="{{url('komarnici')}}">КОМАРНИЦИ</a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 hero-feature">
-                <div class="thumbnail">
-                    <img src="{{asset('assets/images/placeholder.png')}}" alt="">
-                    <div class="caption">
-                        <h3>КОМАРНИЦИ</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <p>
-                            <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -145,96 +136,6 @@
     </div>
 </section>
 <!-- /PRICING -->
-
-
-<!-- OUR TEAM -->
-<section id="our-team">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h1>Our Team</h1>
-                    <span class="st-border"></span>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="team-member">
-                    <div class="member-image">
-                        <img class="img-responsive" src="images/members/team1.jpg" alt="">
-                        <div class="member-social">
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Khalil Uddin</h4>
-                        <span>Designer</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="team-member">
-                    <div class="member-image">
-                        <img class="img-responsive" src="images/members/team2.jpg" alt="">
-                        <div class="member-social">
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Rubel Miah</h4>
-                        <span>Lead Developer</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="team-member">
-                    <div class="member-image">
-                        <img class="img-responsive" src="images/members/team1.jpg" alt="">
-                        <div class="member-social">
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Shamim Shohag</h4>
-                        <span>Developer</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-sm-6">
-                <div class="team-member">
-                    <div class="member-image">
-                        <img class="img-responsive" src="images/members/team2.jpg" alt="">
-                        <div class="member-social">
-                            <a href=""><i class="fa fa-facebook"></i></a>
-                            <a href=""><i class="fa fa-twitter"></i></a>
-                            <a href=""><i class="fa fa-google-plus"></i></a>
-                            <a href=""><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="member-info">
-                        <h4>Zubayer Rahman</h4>
-                        <span>Marketer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /OUR TEAM -->
-
-
 <!-- ABOUT US -->
 <section id="about-us">
     <div class="container-fluid">
@@ -268,85 +169,6 @@
     </div>
 </section>
 <!-- /ABOUT US -->
-
-<!-- TESTIMONIAL -->
-<section id="testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="overlay"></div>
-            <div class="col-md-8 col-md-offset-2 col-sm-12">
-                <div class="st-testimonials">
-
-                    <div class="item active text-center">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus ullam possimus quas obcaecati suscipit voluptate facilis cum"</p>
-                        <div class="st-border"></div>
-                        <div class="client-info">
-                            <h5>Tom Roof</h5>
-                            <span>CEO of Domain.com</span>
-                        </div>
-                    </div>
-
-                    <div class="item text-center">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolore nesciunt natus ullam possimus quas obcaecati suscipit voluptate facilis cumconsectetur adipisicing elit. Amet dolore"</p>
-                        <div class="st-border"></div>
-                        <div class="client-info">
-                            <h5>Mustafiz</h5>
-                            <span>CEO of Domain.com</span>
-                        </div>
-                    </div>
-
-                    <div class="item text-center">
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem autem possimus laborum, ducimus vel rerum asperiores delectus, suscipit voluptate mollitia, ullam perspiciatis voluptates!"</p>
-                        <div class="st-border"></div>
-                        <div class="client-info">
-                            <h5>Sean Hynes</h5>
-                            <span>CEO of Domain.com</span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /TESTIMONIAL -->
-
-
-
-<!-- FUN FACTS -->
-<section id="fun-facts">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
-                <div class="fun-fact text-center">
-                    <h3><i class="fa fa-thumbs-o-up"></i> <span class="st-counter">365</span></h3>
-                    <p>Happy Clients</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="fun-fact text-center">
-                    <h3><i class="fa fa-briefcase fa-6"></i> <span class="st-counter">73987</span></h3>
-                    <p>Completed Projects</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="fun-fact text-center">
-                    <h3><i class="fa fa-coffee"></i> <span class="st-counter">297345</span></h3>
-                    <p>Cups of Coffee</p>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="fun-fact text-center">
-                    <h3><i class="fa fa-code"></i> <span class="st-counter">9823686</span></h3>
-                    <p>Lines of Code</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /FUN FACTS -->
-
-
 <!-- CONTACT -->
 <section id="contact">
     <div class="container">

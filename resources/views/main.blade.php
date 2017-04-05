@@ -24,6 +24,7 @@
 </div>
 
 @include('partials._js')
+@include('partials.google')
 
 </body>
 </html>

@@ -17,7 +17,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                        <img class="img-responsive" src="{{asset('assets/images/komarnik-1.png')}}" alt="">
                     </a>
                 </div>
                 <div class="col-md-5">
@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                        <img class="img-responsive" src="{{asset('assets/images/komarnik-2.png')}}" alt="">
                     </a>
                 </div>
                 <div class="col-md-5">
@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                        <img class="img-responsive" src="{{asset('assets/images/komarnik-3.png')}}" alt="">
                     </a>
                 </div>
                 <div class="col-md-5">
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-md-7">
                     <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                        <img class="img-responsive" src="{{asset('assets/images/komarnik-4.png')}}" alt="">
                     </a>
                 </div>
                 <div class="col-md-5">
