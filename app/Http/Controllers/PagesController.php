@@ -43,7 +43,7 @@ class PagesController extends Controller
         );
         Mail::send('pages.contact', $data, function($message) use ($data){
             $message->from($data['email']);
-            $message->to('darevski1@gmail.com');
+            $message->to('aluplastmk@gmail.com');
             $message->subject($data['subject']);
         });
         Session::flash('success', 'Your Email was Sent!');
