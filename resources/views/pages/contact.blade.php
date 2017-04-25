@@ -18,18 +18,10 @@
                 <div class="col-md-6">
                     <h2>Контакт инфо</h2>
                     <ul>
-<<<<<<< HEAD
                         <li><a href="tel:070219253">+ 389 70 219 253 </a> </li>
                         <li><a href="tel:077710007">+ 389 77 710 007</a> </li>
                         <li><a href="tel:1234567">123-4567</a> </li>
-
-                        <li>aluplastmk@gmail.com</li>
-=======
-                        <li><a href="tel:1234567">+389 70 219 253</a> </li>
-                        <li><a href="tel:1234567">+389 77 710 007</a> </li>
                         <li>aluplast@gmail.com </li>
->>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
-
                         <ul>
                         @foreach($errors->all() as $error)
                             <li>{{ $error }}</li>
