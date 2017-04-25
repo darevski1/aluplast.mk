@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <img src="{{asset('assets/images/rulou-aplicat.jpg')}}" alt="">
+                    <img class="img-responsive" src="{{asset('assets/images/rulou-aplicat.jpg')}}" alt="">
                 </div>
                 <div class="col-md-5">
 

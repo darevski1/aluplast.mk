@@ -913,6 +913,7 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
+<<<<<<< HEAD
             "version": "v5.4.7",
             "source": {
                 "type": "git",
@@ -923,6 +924,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
                 "reference": "56db4ed32a6d5c9824c3ecc1d2e538f663f47eb4",
+=======
+            "version": "v5.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
                 "shasum": ""
             },
             "require": {
@@ -963,7 +976,11 @@
                 "mail",
                 "mailer"
             ],
+<<<<<<< HEAD
             "time": "2017-04-20T17:32:18+00:00"
+=======
+            "time": "2017-02-13T07:52:53+00:00"
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
         },
         {
             "name": "symfony/console",
@@ -1084,6 +1101,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
+<<<<<<< HEAD
             "version": "v3.2.7",
             "source": {
                 "type": "git",
@@ -1094,6 +1112,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
                 "reference": "154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
+=======
+            "version": "v3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/event-dispatcher.git",
+                "reference": "b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d",
+                "reference": "b7a1b9e0a0f623ce43b4c8d775eb138f190c9d8d",
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
                 "shasum": ""
             },
             "require": {
@@ -1140,7 +1170,11 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2017-04-04T07:26:27+00:00"
+=======
+            "time": "2017-02-21T09:12:04+00:00"
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
         },
         {
             "name": "symfony/finder",
@@ -1948,12 +1982,20 @@
             "version": "0.9.9",
             "source": {
                 "type": "git",
+<<<<<<< HEAD
                 "url": "https://github.com/mockery/mockery.git",
+=======
+                "url": "https://github.com/padraic/mockery.git",
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
                 "reference": "6fdb61243844dc924071d3404bb23994ea0b6856"
             },
             "dist": {
                 "type": "zip",
+<<<<<<< HEAD
                 "url": "https://api.github.com/repos/mockery/mockery/zipball/6fdb61243844dc924071d3404bb23994ea0b6856",
+=======
+                "url": "https://api.github.com/repos/padraic/mockery/zipball/6fdb61243844dc924071d3404bb23994ea0b6856",
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
                 "reference": "6fdb61243844dc924071d3404bb23994ea0b6856",
                 "shasum": ""
             },
@@ -3076,6 +3118,7 @@
         },
         {
             "name": "symfony/yaml",
+<<<<<<< HEAD
             "version": "v3.2.7",
             "source": {
                 "type": "git",
@@ -3086,6 +3129,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/62b4cdb99d52cb1ff253c465eb1532a80cebb621",
                 "reference": "62b4cdb99d52cb1ff253c465eb1532a80cebb621",
+=======
+            "version": "v3.2.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/093e416ad096355149e265ea2e4cc1f9ee40ab1a",
+                "reference": "093e416ad096355149e265ea2e4cc1f9ee40ab1a",
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
                 "shasum": ""
             },
             "require": {
@@ -3127,7 +3182,11 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2017-03-20T09:45:15+00:00"
+=======
+            "time": "2017-03-07T16:47:02+00:00"
+>>>>>>> 2318b49dd31e5ece5749850d8cdfde4f4db9e911
         },
         {
             "name": "webmozart/assert",
