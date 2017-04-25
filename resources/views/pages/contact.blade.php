@@ -20,7 +20,7 @@
                     <ul>
                         <li><a href="tel:070219253">+ 389 70 219 253 </a> </li>
                         <li><a href="tel:077710007">+ 389 77 710 007</a> </li>
-                        <li>aluplast@gmail.com </li>
+                        <li>aluplastmk@gmail.com </li>
                         <ul>
                         @foreach($errors->all() as $error)
                             <li>{{ $error }}</li>
