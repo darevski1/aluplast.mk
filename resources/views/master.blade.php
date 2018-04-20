@@ -49,7 +49,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item" style="background-image: url(assets/images/banner03.png)">
+            <div class="item" style="background-image: url(assets/images/banner01.png)">
                 <div class="carousel-caption container">
                     <div class="row">
                         <div class="col-sm-7">
@@ -65,18 +65,18 @@
     </div> <!--/#home-carousel-->
 </section>
 <!-- /SLIDER -->
-
-
 <!-- SERVICES -->
 <section id="services">
     <div class="container">
         <div class="row">
             <div class="featurette" id="about">
-                <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-                <h2 class="featurette-heading">This First Heading
-                    <span class="text-muted">Will Catch Your Eye</span>
+                <img class="featurette-image img-circle img-responsive pull-left" src="assets/images/TROCAL-88-standard-white.jpg" style="width:400px; heigth:400px;">
+                <h2 class="featurette-heading">ПВЦ прозорци Trocal
                 </h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                <p class="lead">
+                    TROCAL се смета за пионер за производство на пвц профили пред повеќе од педесет години го разви првиот пвц профил. Оттогаш, TROCAL ја одржува својата слава како водечки иноватор во технологијата на прозорците. 
+Нови, елегантни дизајни и нови технологии се TROCAL обележја кои се засекогаш поставување стандарди. Најсовремената технологија што TROCAL ја има добиено од своето знаење и технологија се рефлектира во сите генерации - без оглед дали има прозорци, станбени врати или системи на лизгачки врати. Освен извонредните спецификации и оптимизираните топлинска и звучна изолација, различните пресвртници исто така комбинираат објекти за големи прозорци и безвременски елегантен дизајн.
+                </p>
             </div>
         </div>
     </div>
@@ -99,34 +99,34 @@
                     <div class="caption">
                         <h3>                        <a href="{{url('pvc')}}">ПВЦ СТОЛАРИЈА</a>
                         </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Енергетски ефикасни пвц прозори произведени од врвен германски производител на профили TROCAL.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img class="img-responsive" src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <img class="img-responsive" src="{{asset('assets/images/placeholder1.png')}}" alt="">
                     <div class="caption">
                         <h3><a href="{{url('al')}}">Алуминиум</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Алуминиумот се карактеризираа со одлична термо и звучна изолација со висок степен на издржливост...</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <img src="{{asset('assets/images/placeholder3.png')}}" alt="">
                     <div class="caption">
                         <h3><a href="{{url('roletni')}}">РОЛЕТНИ</a></h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Алуминиумските ролетни се изработени од пластифициран алуминиум и исполнети се со полиуретан пена.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="{{asset('assets/images/placeholder.png')}}" alt="">
+                    <img src="{{asset('assets/images/placeholder4.png')}}" alt="">
                     <div class="caption">
-                        <a href="{{url('komarnici')}}">КОМАРНИЦИ</a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h3><a href="{{url('roletni')}}">Комарници</a></h3>
+                        <p>Комарниците се одлична заштита од инсектите во летниот период, се поставуваат во вид на мрежа на прозорците....</p>
                     </div>
                 </div>
             </div>
