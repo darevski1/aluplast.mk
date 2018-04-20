@@ -27,9 +27,11 @@
                             Заштита од губење на топлина во зимскиот период
                         </li>
                         <li>Можност да се комбинира со комарници</li>
-
                     </ul>
+                    <a href="{{url('contact')}}" class="btn btn-danger btn-block btn-lg">Побарајте понуда</a>
+                    
                 </div>
+                
             </div>
         </div>
     </section>

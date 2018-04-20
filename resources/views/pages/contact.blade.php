@@ -16,6 +16,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
+                         <h2> 
+                                Побарајте понуда, може да не испратите барање за понуда со или без скици 
+                            </h2>
                     <h2>Контакт инфо</h2>
                     <ul>
                         <li><a href="tel:070219253">+ 389 70 219 253 </a> </li>
@@ -28,6 +31,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
+                
                     <form action="{{ url('contact')}}" method="POST">
                         {{ csrf_field() }}
                         <div class="form-group">
